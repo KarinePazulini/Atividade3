@@ -5,16 +5,16 @@ using namespace std;
 
 int main() {
 
-  tTriangulos tri;
+  tTriangulos t;
 
   cout << "Digite os valores dos 3 lados do triangulo: " << endl;
 
-  cin >> tri.lado1;
-  cin >> tri.lado2;
-  cin >> tri.lado3;
+  cin >> t.lado1;
+  cin >> t.lado2;
+  cin >> t.lado3;
 
-  tri.perimTri(tri);
-  tri.areaTri(tri);
-  tri.hipoTri(tri);
+  t.perimTri(t);
+  t.areaTri(t);
+  t.hipoTri(t);
   
 }
