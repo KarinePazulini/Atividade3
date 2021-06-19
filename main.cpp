@@ -7,7 +7,7 @@ int main() {
 
   tTriangulos tri;
 
-  cout << "Digite: " << endl;
+  cout << "Digite os valores dos 3 lados do triangulo: " << endl;
 
   cin >> tri.lado1;
   cin >> tri.lado2;
